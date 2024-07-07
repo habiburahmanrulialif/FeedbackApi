@@ -122,6 +122,8 @@ This FastAPI application provides endpoints for user registration, authenticatio
 > Creating a virtual environment is optional, but it is usually better to do so if you know how.
 > [Postgresql](https://www.postgresql.org/download/) must be installed and running, and create database named : feedbackDb.
 > [Docker](https://docs.docker.com/engine/install/) must be installed and running.
+> Change the Database_URL on database.py as per your database.
+
 
 Install docker-compose
 ```
@@ -136,7 +138,10 @@ Run docker
 docker-compose up
 ```
 
-
+Additionally, you can run the app by using uvicorn directly by accesing the backend directory.
+```
+uvicorn main:app --reload
+```
 Run the front end
 ```
 npm run dev
