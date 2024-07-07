@@ -2,6 +2,8 @@
 ## Main idea
 User would be able to rate the item or product provided to them.
 
+[Vidio demonstration](https://youtu.be/-EiopDLlP3k)
+
 ## Documentation
 FastAPI Application for User Management, Authentication, and Feedback Ratings
 This FastAPI application provides endpoints for user registration, authentication, feedback ratings, and item management. The application uses SQLAlchemy for database interactions and JWT for authentication.
