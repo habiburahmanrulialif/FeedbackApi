@@ -118,11 +118,12 @@ This FastAPI application provides endpoints for user registration, authenticatio
 1. The application allows all headers (*). You can specify which headers are allowed for the request.
 ---
 ## Setup 
-> Python and [Git](https://git-scm.com) must be installed on your computer.  
-> Creating a virtual environment is optional, but it is usually better to do so if you know how.
-> [Postgresql](https://www.postgresql.org/download/) must be installed and running, and create database named : feedbackDb.
-> [Docker](https://docs.docker.com/engine/install/) must be installed and running.
-> Change the Database_URL on database.py as per your database.
+1. Python and [Git](https://git-scm.com) must be installed on your computer.
+2. Creating a virtual environment is optional, but it is usually better to do so if you know how.
+3. [Postgresql](https://www.postgresql.org/download/) must be installed and running, and create database named : feedbackDb.
+4. [Docker](https://docs.docker.com/engine/install/) must be installed and running.
+5. Change the Database_URL on database.py as per your database.
+6. For testing, create new database and change the Database_URL at test_main.py
 
 
 Install docker-compose
